@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 81.0, 1242.0, 931.0 ],
+		"rect" : [ 42.0, 85.0, 1242.0, 931.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -50,7 +50,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -395,7 +395,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 0,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -702,7 +702,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 324.0, 47.0, 72.0, 22.0 ],
+					"patching_rect" : [ 481.0, 51.0, 72.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -725,7 +725,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -873,7 +873,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 402.0, 46.0, 156.0, 22.0 ],
+					"patching_rect" : [ 559.0, 50.0, 156.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -896,7 +896,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1003,13 +1003,13 @@
 									"patching_rect" : [ 246.25, 334.0, 48.0, 136.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_shortname" : "live.gain~",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4,
 											"parameter_mmin" : -70.0,
 											"parameter_longname" : "live.gain~",
 											"parameter_mmax" : 6.0,
-											"parameter_initial" : [ 0.0 ]
+											"parameter_initial" : [ 0.0 ],
+											"parameter_shortname" : "live.gain~"
 										}
 
 									}
@@ -1270,7 +1270,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 173.0, 47.0, 141.0, 22.0 ],
+					"patching_rect" : [ 330.0, 51.0, 141.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1293,13 +1293,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 107.0, 1242.0, 905.0 ],
+						"rect" : [ 42.0, 111.0, 1242.0, 905.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1331,6 +1331,147 @@
 								"box" : 								{
 									"border" : 0,
 									"filename" : "helpdetailsoneline.js",
+									"id" : "obj-50",
+									"ignoreclick" : 1,
+									"jsarguments" : [ "split" ],
+									"maxclass" : "jsui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 526.0, 108.0, 240.0, 31.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-55",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 2,
+									"outlettype" : [ "float", "float" ],
+									"patching_rect" : [ 775.0, 115.099998474121094, 70.0, 22.0 ],
+									"text" : "split 0. 100."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"border" : 0,
+									"filename" : "helpdetailsoneline.js",
+									"id" : "obj-47",
+									"ignoreclick" : 1,
+									"jsarguments" : [ "route" ],
+									"maxclass" : "jsui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 526.0, 68.5, 240.0, 31.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-44",
+									"maxclass" : "newobj",
+									"numinlets" : 4,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 775.0, 73.0, 65.0, 22.0 ],
+									"text" : "route a b c"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"border" : 0,
+									"filename" : "helpdetailsoneline.js",
+									"id" : "obj-39",
+									"ignoreclick" : 1,
+									"jsarguments" : [ "receive" ],
+									"maxclass" : "jsui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 526.0, 207.0, 240.0, 31.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-43",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 770.5, 211.5, 145.0, 22.0 ],
+									"text" : "receive sendreceivename"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"border" : 0,
+									"filename" : "helpdetailsoneline.js",
+									"id" : "obj-37",
+									"ignoreclick" : 1,
+									"jsarguments" : [ "send" ],
+									"maxclass" : "jsui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 526.0, 163.2666015625, 240.0, 31.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-38",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 770.5, 167.7666015625, 133.0, 22.0 ],
+									"text" : "send sendreceivename"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"border" : 0,
+									"filename" : "helpdetailsoneline.js",
+									"id" : "obj-36",
+									"ignoreclick" : 1,
+									"jsarguments" : [ "loadbang" ],
+									"maxclass" : "jsui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 526.0, 21.5, 240.0, 31.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-35",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 775.0, 26.0, 60.0, 22.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"border" : 0,
+									"filename" : "helpdetailsoneline.js",
 									"id" : "obj-32",
 									"ignoreclick" : 1,
 									"jsarguments" : [ "jsui" ],
@@ -1339,7 +1480,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 517.0, 74.5, 240.0, 31.0 ]
+									"patching_rect" : [ 526.0, 367.600006103515625, 240.0, 31.0 ]
 								}
 
 							}
@@ -1355,7 +1496,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 517.0, 21.5, 240.0, 31.0 ]
+									"patching_rect" : [ 526.0, 314.600006103515625, 240.0, 31.0 ]
 								}
 
 							}
@@ -1367,7 +1508,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 766.0, 58.0, 64.0, 64.0 ]
+									"patching_rect" : [ 775.0, 351.100006103515625, 64.0, 64.0 ]
 								}
 
 							}
@@ -1378,7 +1519,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 766.0, 26.0, 19.0, 22.0 ],
+									"patching_rect" : [ 775.0, 319.100006103515625, 19.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"filename" : "",
 										"parameter_enable" : 0
