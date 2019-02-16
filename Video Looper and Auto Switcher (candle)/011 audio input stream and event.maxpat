@@ -115,7 +115,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 903.5, 269.29998779296875, 275.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "file clap.png : load this image at startup"
 				}
 
@@ -150,8 +149,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 458.79998779296875, 692.60003662109375, 237.0, 47.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 458.79998779296875, 692.60003662109375, 239.0, 47.0 ],
 					"text" : "The code with the orange border creates a random color (a list of three floats between 0 and 1)"
 				}
 
@@ -347,7 +345,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 458.79998779296875, 654.60003662109375, 237.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "By default, opacity is disabled but can be enabled with \"blend_enable 1\""
 				}
 
@@ -372,7 +369,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 458.79998779296875, 594.0, 237.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "In jit.gl objects, the color is controlled with four values that range from 0 to 1"
 				}
 
@@ -462,7 +458,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 770.29998779296875, 807.43341064453125, 95.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "color $1 $2 $3 1"
 				}
 
@@ -491,24 +486,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 132.0, 786.0, 95.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "color $1 $2 $3 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"border" : 0,
-					"filename" : "helpdetailsoneline.js",
-					"id" : "obj-35",
-					"ignoreclick" : 1,
-					"jsarguments" : [ "jit.gl.texture" ],
-					"maxclass" : "jsui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 651.0, 210.166671752929688, 240.0, 31.0 ]
 				}
 
 			}
@@ -584,22 +562,6 @@
 			}
 , 			{
 				"box" : 				{
-					"border" : 0,
-					"filename" : "helpdetailsoneline.js",
-					"id" : "obj-33",
-					"ignoreclick" : 1,
-					"jsarguments" : [ "jit.world" ],
-					"maxclass" : "jsui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 671.0, 108.166671752929688, 240.0, 31.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 1,
 					"id" : "obj-25",
 					"maxclass" : "comment",
@@ -633,150 +595,6 @@
 					"outlettype" : [ "jit_gl_texture", "" ],
 					"patching_rect" : [ 671.0, 244.66668701171875, 220.0, 22.0 ],
 					"text" : "jit.gl.texture @name clap @file clap.png"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"border" : 0,
-					"filename" : "helpdetailsoneline.js",
-					"id" : "obj-11",
-					"ignoreclick" : 1,
-					"jsarguments" : [ "message" ],
-					"maxclass" : "jsui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 113.5, 64.166671752929688, 240.0, 31.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"border" : 0,
-					"filename" : "helpdetailsoneline.js",
-					"id" : "obj-10",
-					"ignoreclick" : 1,
-					"jsarguments" : [ "select" ],
-					"maxclass" : "jsui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 440.0, 491.1666259765625, 240.0, 31.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"border" : 0,
-					"filename" : "helpdetailsoneline.js",
-					"id" : "obj-9",
-					"ignoreclick" : 1,
-					"jsarguments" : [ "change" ],
-					"maxclass" : "jsui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 440.0, 442.1666259765625, 240.0, 31.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"border" : 0,
-					"filename" : "helpdetailsoneline.js",
-					"id" : "obj-8",
-					"ignoreclick" : 1,
-					"jsarguments" : [ "toggle" ],
-					"maxclass" : "jsui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 113.5, 362.1666259765625, 240.0, 31.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"border" : 0,
-					"filename" : "helpdetailsoneline.js",
-					"id" : "obj-7",
-					"ignoreclick" : 1,
-					"jsarguments" : [ ">" ],
-					"maxclass" : "jsui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 113.5, 298.1666259765625, 240.0, 31.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"border" : 0,
-					"filename" : "helpdetailsoneline.js",
-					"id" : "obj-4",
-					"ignoreclick" : 1,
-					"jsarguments" : [ "number" ],
-					"maxclass" : "jsui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 50.5, 242.6666259765625, 240.0, 31.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"border" : 0,
-					"filename" : "helpdetailsoneline.js",
-					"id" : "obj-2",
-					"ignoreclick" : 1,
-					"jsarguments" : [ "levelmeter~" ],
-					"maxclass" : "jsui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 113.5, 186.166671752929688, 240.0, 31.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"border" : 0,
-					"filename" : "helpdetailsoneline.js",
-					"id" : "obj-1",
-					"ignoreclick" : 1,
-					"jsarguments" : [ "loadbang" ],
-					"maxclass" : "jsui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 113.5, 18.5, 240.0, 31.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"border" : 0,
-					"filename" : "helpdetailsoneline.js",
-					"id" : "obj-49",
-					"ignoreclick" : 1,
-					"jsarguments" : [ "ezadc~" ],
-					"maxclass" : "jsui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 113.5, 119.666671752929688, 240.0, 31.0 ]
 				}
 
 			}
@@ -1202,14 +1020,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "helpdetailsoneline.js",
-				"bootpath" : "D:/tof/OneDrive/CART310/CART310-Code-Examples",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Audiomix",
@@ -1258,8 +1069,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",

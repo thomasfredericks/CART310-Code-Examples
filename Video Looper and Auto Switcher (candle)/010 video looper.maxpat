@@ -39,38 +39,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"border" : 0,
-					"filename" : "helpdetailsoneline.js",
-					"id" : "obj-34",
-					"ignoreclick" : 1,
-					"jsarguments" : [ "button" ],
-					"maxclass" : "jsui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 35.0, 215.5, 240.0, 31.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"border" : 0,
-					"filename" : "helpdetailsoneline.js",
-					"id" : "obj-32",
-					"ignoreclick" : 1,
-					"jsarguments" : [ "select" ],
-					"maxclass" : "jsui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 303.0, 370.5, 240.0, 31.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -155,54 +123,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 73.0, 44.866683959960938, 432.0, 20.0 ],
 					"text" : "This example shows how to sequence one video after another."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"border" : 0,
-					"filename" : "helpdetailsoneline.js",
-					"id" : "obj-19",
-					"ignoreclick" : 1,
-					"jsarguments" : [ "jit.gl.videoplane" ],
-					"maxclass" : "jsui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 47.0, 565.0, 240.0, 31.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"border" : 0,
-					"filename" : "helpdetailsoneline.js",
-					"id" : "obj-18",
-					"ignoreclick" : 1,
-					"jsarguments" : [ "jit.movie" ],
-					"maxclass" : "jsui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 23.0, 333.0, 240.0, 31.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"border" : 0,
-					"filename" : "helpdetailsoneline.js",
-					"id" : "obj-33",
-					"ignoreclick" : 1,
-					"jsarguments" : [ "jit.world" ],
-					"maxclass" : "jsui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 35.0, 141.133316040039063, 240.0, 31.0 ]
 				}
 
 			}
@@ -445,14 +365,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "helpdetailsoneline.js",
-				"bootpath" : "D:/tof/OneDrive/CART310/CART310-Code-Examples",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Audiomix",
@@ -501,8 +414,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
