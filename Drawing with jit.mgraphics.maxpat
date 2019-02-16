@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 26.0, 77.0, 1538.0, 939.0 ],
+		"rect" : [ 26.0, 81.0, 1538.0, 931.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 792.5, 493.0, 150.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Click to let the \"bang\"s pass."
 				}
 
@@ -66,7 +65,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-35",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -486,7 +484,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1065.5, 576.75640869140625, 150.0, 20.0 ],
+					"patching_rect" : [ 952.5, 546.0, 150.0, 20.0 ],
 					"text" : "Animate a blue ball."
 				}
 
@@ -501,8 +499,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 775.5, 576.75640869140625, 467.0, 23.0 ],
-					"presentation_linecount" : 2,
-					"text" : "set_source_rgba 0 0 0 1, paint, set_source_rgba 0 0 1 1, ellipse $1 $2 40 30, fill"
+					"text" : "set_source_rgba 0 0 0 1, paint, set_source_rgba 0 0 1 1, ellipse $1 $2 40 40, fill"
 				}
 
 			}
@@ -560,7 +557,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 473.0, 208.059829711914063, 310.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "We use this bang to activate the rendering of [jit.mgraphics]."
 				}
 
@@ -626,7 +622,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 664.5, 135.5, 406.0, 20.0 ],
+					"patching_rect" : [ 700.5, 133.5, 406.0, 20.0 ],
 					"text" : "size 320 240 -> set the window width and height"
 				}
 
@@ -637,7 +633,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 663.5, 111.5, 406.0, 20.0 ],
+					"patching_rect" : [ 699.5, 109.5, 406.0, 20.0 ],
 					"text" : "floating 1 -> keep the window \"on top\" of other windows"
 				}
 
@@ -648,7 +644,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 663.5, 89.5, 406.0, 20.0 ],
+					"patching_rect" : [ 699.5, 87.5, 406.0, 20.0 ],
 					"text" : "erase_color 1 1 1 1 -> set the erase color to white "
 				}
 
@@ -659,7 +655,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 663.5, 65.0, 216.0, 20.0 ],
+					"patching_rect" : [ 699.5, 63.0, 216.0, 20.0 ],
 					"text" : "enable 1 -> activate the rendering"
 				}
 
@@ -703,7 +699,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 712.0, 747.66668701171875, 354.0, 33.0 ],
+					"patching_rect" : [ 712.0, 747.66668701171875, 357.0, 33.0 ],
 					"text" : "Display the \"mg\" texture on the surface with a scale with a 1:0.75 ratio (the ratio of 320x240)."
 				}
 
@@ -715,7 +711,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 663.5, 40.866683959960938, 166.0, 20.0 ],
+					"patching_rect" : [ 699.5, 38.866683959960938, 166.0, 20.0 ],
 					"text" : "Attributes"
 				}
 
@@ -880,8 +876,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
