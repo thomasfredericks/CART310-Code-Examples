@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 107.0, 1178.0, 633.0 ],
+		"rect" : [ 34.0, 77.0, 1452.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,71 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 469.5, 67.5, 167.0, 22.0 ],
+					"text" : "metro @active 1 @interval 50"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 442.0, 58.5, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 469.5, 114.5, 62.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"filename" : "move.js",
+						"parameter_enable" : 0
+					}
+,
+					"text" : "js move.js"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 469.5, 171.0, 189.0, 22.0 ],
+					"text" : "jit.gl.gridshape @scale 0.1 0.1 0.1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "bang", "" ],
+					"patching_rect" : [ 469.5, 13.5, 175.0, 22.0 ],
+					"text" : "jit.world @enable 1 @floating 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-26",
 					"maxclass" : "message",
@@ -105,7 +170,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 142.0, 580.0, 642.0, 38.0 ],
-					"presentation_linecount" : 2,
 					"text" : ";\r\nmax launchbrowser https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math"
 				}
 
@@ -132,7 +196,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 142.0, 526.0, 647.0, 38.0 ],
-					"presentation_linecount" : 3,
 					"text" : ";\r\nmax launchbrowser https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String"
 				}
 
@@ -171,7 +234,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 387.0, 309.0, 107.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "anythingElse a 2 3"
 				}
 
@@ -302,8 +364,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -351,6 +427,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-7", 0 ],
+					"watchpoint_flags" : 1,
+					"watchpoint_id" : 1
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-8", 0 ]
 				}
@@ -359,7 +444,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "JavaScriptInMax.js",
-				"bootpath" : "D:/tof/OneDrive/CART310/CART310-Code-Examples/JavaScriptInMax",
+				"bootpath" : "D:/tof/OneDrive/CART310/CART310-Code-Examples/JavaScript in Max",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "move.js",
+				"bootpath" : "D:/tof/OneDrive/CART310/CART310-Code-Examples/JavaScript in Max",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1

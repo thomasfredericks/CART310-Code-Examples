@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 395.0, 278.0, 638.0, 604.0 ],
+		"rect" : [ 34.0, 77.0, 1452.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -84,8 +84,8 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 218.209523809523802, "ticks" ],
-						"originaltempo" : 119.999999999999986,
+						"originallength" : [ 247.248979591836672, "ticks" ],
+						"originaltempo" : 119.999999999999972,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
 						"timestretch" : [ 0 ]
@@ -103,7 +103,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 189.0, 218.0, 375.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "The \"sounds\" arguments tells the script to output the path relative to the \"sounds\" folder inside the patcher's folder."
 				}
 
@@ -253,7 +252,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 16.0, 293.0, 100.0, 22.0 ],
+					"patching_rect" : [ 16.0, 291.666656494140625, 100.0, 22.0 ],
 					"prefix" : "D:/tof/OneDrive/CART310/CART310-Code-Examples/Loading Relative Files/sounds/"
 				}
 

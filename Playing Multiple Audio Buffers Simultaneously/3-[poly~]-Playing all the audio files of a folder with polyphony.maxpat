@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 81.0, 901.0, 931.0 ],
+		"rect" : [ 42.0, 85.0, 901.0, 931.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 242.0, 914.5, 580.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "The \"note\" message tells the [poly~] to select a new voice and send the arguments (the rest of the message) to the selected voice."
 				}
 
@@ -117,7 +116,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 186.0, 759.0, 29.5, 22.0 ],
-					"text" : "+ 1"
+					"text" : "+ 2"
 				}
 
 			}
@@ -129,7 +128,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 186.0, 733.0, 59.0, 22.0 ],
-					"text" : "random 5"
+					"text" : "random 4"
 				}
 
 			}
@@ -153,7 +152,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 186.0, 707.0, 63.0, 22.0 ],
-					"text" : "metro 500"
+					"text" : "metro 250"
 				}
 
 			}
@@ -209,7 +208,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 247.0, 489.0, 387.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "This [poly~] duplicates the \"playvoice~.maxpat\" patcher (found in the folder of this patcher) 10 times. Double click the [poly~] (in edit mode) to see the loaded patcher."
 				}
 
@@ -222,7 +220,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 145.0, 436.5, 580.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "The \"note\" message tells the [poly~] to select a new voice and send the arguments (the rest of the message) to the selected voice. Click this message multiple times!"
 				}
 
@@ -291,7 +288,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 213.0, 84.0, 523.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "This [poly~] duplicates the \"playvoice~.maxpat\" patcher (found in the folder of this patcher) 10 times."
 				}
 
@@ -349,7 +345,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 175.0, 155.5, 387.0, 47.0 ],
+					"patching_rect" : [ 175.0, 155.5, 389.0, 47.0 ],
 					"text" : "[polybuffer~] can contain multiple buffers. Double click the [polybuffer~] (in edit mode) to see its contents. This one is called \"toto\" and its contents was filled by the code below."
 				}
 

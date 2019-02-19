@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 107.0, 891.0, 782.0 ],
+		"rect" : [ 333.0, 144.0, 1037.0, 782.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -193,7 +193,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 16.0, 378.0, 141.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "tof.relativepath.js",
+						"filename" : "tof.relativepath",
 						"parameter_enable" : 0
 					}
 ,
@@ -315,7 +315,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 14.0, 748.0, 99.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "tof.relativepath.js",
+						"filename" : "tof.relativepath",
 						"parameter_enable" : 0
 					}
 ,
@@ -379,7 +379,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 16.0, 217.5, 99.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "tof.relativepath.js",
+						"filename" : "tof.relativepath",
 						"parameter_enable" : 0
 					}
 ,
@@ -417,9 +417,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 128.5, 99.0, 22.0 ],
+					"patching_rect" : [ 16.0, 123.0, 99.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "tof.relativepath.js",
+						"filename" : "tof.relativepath",
 						"parameter_enable" : 0
 					}
 ,

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 1452.0, 939.0 ],
+		"rect" : [ 42.0, 85.0, 1452.0, 930.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -131,7 +131,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 75.0, 219.5, 176.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "sendphys worldbox_scale 1 1 1"
 				}
 
@@ -168,7 +167,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 413.0, 136.5, 694.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "The jit.phys.picker object responds to mouse clicks and drags in the destination by creating a constraint on jit.phys.body objects intersecting with the mouse. Multi-touch picking is facilitated by the touch message.",
 					"textjustification" : 2
 				}
@@ -181,7 +179,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 413.0, 56.5, 693.0, 47.0 ],
+					"patching_rect" : [ 413.0, 56.5, 694.0, 47.0 ],
 					"text" : "The jit.gl.physdraw object performs debug drawing of the objects in a physics simulation, including jit.phys.body, jit.phys.multiple, and constraint objects such as jit.phys.hinge and jit.phys.6dof. A valid opengl context and a valid jit.phys.world context are required for debug drawing of the physics world.",
 					"textjustification" : 2
 				}
