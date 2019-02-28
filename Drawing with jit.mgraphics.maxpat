@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 26.0, 81.0, 1538.0, 931.0 ],
+		"rect" : [ 34.0, 77.0, 1628.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -94,7 +94,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 462.0, 255.0, 106.0, 22.0 ],
+					"patching_rect" : [ 477.0, 240.0, 106.0, 22.0 ],
 					"text" : "send render_bang"
 				}
 
@@ -105,7 +105,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 604.0, 673.0, 357.0, 20.0 ],
+					"patching_rect" : [ 604.0, 651.0, 357.0, 20.0 ],
 					"text" : "Send the graphics to a texture called \"mg\"."
 				}
 
@@ -556,7 +556,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 473.0, 208.059829711914063, 310.0, 33.0 ],
+					"patching_rect" : [ 492.5, 196.059829711914063, 310.0, 33.0 ],
 					"text" : "We use this bang to activate the rendering of [jit.mgraphics]."
 				}
 
@@ -568,7 +568,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 473.0, 172.0, 310.0, 33.0 ],
+					"patching_rect" : [ 492.5, 160.0, 310.0, 33.0 ],
 					"text" : "[jit.world]'s second outlet sends a bang everytime it is ready to render a new frame."
 				}
 
@@ -618,45 +618,13 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-31",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 700.5, 133.5, 406.0, 20.0 ],
-					"text" : "size 320 240 -> set the window width and height"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-30",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 699.5, 109.5, 406.0, 20.0 ],
-					"text" : "floating 1 -> keep the window \"on top\" of other windows"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-29",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 699.5, 87.5, 406.0, 20.0 ],
-					"text" : "erase_color 1 1 1 1 -> set the erase color to white "
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-28",
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 699.5, 63.0, 216.0, 20.0 ],
-					"text" : "enable 1 -> activate the rendering"
+					"patching_rect" : [ 695.0, 70.5, 391.0, 60.0 ],
+					"text" : "enable 1 -> activate the rendering\nerase_color 1 1 1 1 -> set the erase color to white \nfloating 1 -> keep the window \"on top\" of other windows\nsize 320 240 -> set the window width and height"
 				}
 
 			}
@@ -700,7 +668,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 712.0, 747.66668701171875, 357.0, 33.0 ],
-					"text" : "Display the \"mg\" texture on the surface with a scale with a 1:0.75 ratio (the ratio of 320x240)."
+					"text" : "Display the \"mg\" texture on the surface with a scale with a 1x0.75 ratio (the ratio of 320x240)."
 				}
 
 			}
@@ -711,7 +679,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 699.5, 38.866683959960938, 166.0, 20.0 ],
+					"patching_rect" : [ 695.0, 48.5, 166.0, 20.0 ],
 					"text" : "Attributes"
 				}
 
@@ -724,7 +692,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 462.0, 667.5, 135.0, 22.0 ],
+					"patching_rect" : [ 462.0, 645.5, 135.0, 22.0 ],
 					"text" : "jit.gl.texture @name mg"
 				}
 
@@ -876,8 +844,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
