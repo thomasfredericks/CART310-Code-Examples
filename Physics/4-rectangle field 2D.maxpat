@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 290.0, 253.0, 1289.0, 587.0 ],
+		"rect" : [ 818.0, 291.0, 1376.0, 588.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,13 +39,25 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 934.0, 365.0, 364.0, 50.0 ],
+					"presentation_linecount" : 7,
+					"text" : "\"filterclass\" is the collision group for this body. It is \"ball\" in this case. The body will only collide with other bodies that have the \"filters ball\" atribute."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-49",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 804.0, 255.999984741210938, 150.0, 50.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Random \"x\" position. The \"y\" position is always \"0.5\"."
 				}
 
@@ -138,7 +150,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 644.0, 398.0, 268.0, 23.0 ],
+					"patching_rect" : [ 644.0, 423.0, 268.0, 23.0 ],
 					"text" : "jit.gl.gridshape @shape circle @color 0 0 1"
 				}
 
@@ -146,12 +158,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-36",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 644.0, 365.0, 353.0, 23.0 ],
-					"text" : "jit.phys.body @shape sphere @scale 0.1 @filterclass ball"
+					"patching_rect" : [ 644.0, 365.0, 284.0, 38.0 ],
+					"text" : "jit.phys.body @shape sphere @scale 0.1 @position 0 -0.5 0 @filterclass ball"
 				}
 
 			}
@@ -341,7 +354,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 635.0, 358.5, 371.0, 71.000030517578125 ],
+					"patching_rect" : [ 635.0, 355.5, 673.0, 97.5 ],
 					"proportion" : 0.5
 				}
 

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 26.0, 81.0, 1453.0, 931.0 ],
+		"rect" : [ 181.0, 150.0, 1090.0, 767.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,12 +39,27 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-19",
+					"id" : "obj-8",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 723.6666259765625, 609.0, 150.0, 20.0 ],
-					"text" : "Animate opacity."
+					"patching_rect" : [ 593.79998779296875, 152.86669921875, 363.0, 47.0 ],
+					"presentation_linecount" : 8,
+					"text" : "\"filters\" is the collision group filter for this body. It is \"ball\" in this case. The body will only collide with bodies that are part of the \"ball\" filterclass (i.e. that have the \"filterclass ball\" attribute).",
+					"textcolor" : [ 0.996078431606293, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 688.6666259765625, 467.0, 150.0, 47.0 ],
+					"text" : "Animate opacity. Note that the gridsphape blow  has \"blend_enable 1\" attribute."
 				}
 
 			}
@@ -55,7 +70,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 644.0, 642.0, 81.0, 22.0 ],
+					"patching_rect" : [ 602.0, 525.0, 81.0, 22.0 ],
 					"text" : "color 1 1 1 $1"
 				}
 
@@ -67,7 +82,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 644.6666259765625, 577.0, 62.0, 22.0 ],
+					"patching_rect" : [ 602.6666259765625, 460.0, 62.0, 22.0 ],
 					"text" : "0.5, 1 250"
 				}
 
@@ -79,7 +94,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 644.6666259765625, 609.0, 41.0, 22.0 ],
+					"patching_rect" : [ 602.6666259765625, 492.0, 41.0, 22.0 ],
 					"text" : "line 0."
 				}
 
@@ -91,7 +106,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 687.6666259765625, 467.0, 150.0, 33.0 ],
+					"patching_rect" : [ 645.6666259765625, 378.0, 150.0, 33.0 ],
 					"text" : "If it is a new collision (i.e. duration is 0.0)."
 				}
 
@@ -102,7 +117,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 765.6666259765625, 418.0, 150.0, 20.0 ],
+					"patching_rect" : [ 723.6666259765625, 329.0, 150.0, 20.0 ],
 					"text" : "Get collision duration."
 				}
 
@@ -113,7 +128,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 677.79998779296875, 339.0, 150.0, 20.0 ],
+					"patching_rect" : [ 635.79998779296875, 250.0, 150.0, 20.0 ],
 					"text" : "Iterate all the collisions."
 				}
 
@@ -125,7 +140,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 644.6666259765625, 486.0, 34.0, 22.0 ],
+					"patching_rect" : [ 602.6666259765625, 397.0, 34.0, 22.0 ],
 					"text" : "sel 1"
 				}
 
@@ -137,7 +152,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 644.6666259765625, 458.0, 36.0, 22.0 ],
+					"patching_rect" : [ 602.6666259765625, 369.0, 36.0, 22.0 ],
 					"text" : "== 0."
 				}
 
@@ -149,7 +164,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 608.6666259765625, 367.0, 55.0, 22.0 ],
+					"patching_rect" : [ 566.6666259765625, 278.0, 55.0, 22.0 ],
 					"text" : "zl slice 1"
 				}
 
@@ -161,7 +176,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 644.6666259765625, 418.0, 119.0, 22.0 ],
+					"patching_rect" : [ 602.6666259765625, 329.0, 119.0, 22.0 ],
 					"text" : "dict.unpack duration:"
 				}
 
@@ -173,7 +188,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 608.6666259765625, 339.0, 47.0, 22.0 ],
+					"patching_rect" : [ 566.6666259765625, 250.0, 47.0, 22.0 ],
 					"text" : "dict.iter"
 				}
 
@@ -185,7 +200,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 608.6666259765625, 311.0, 88.0, 22.0 ],
+					"patching_rect" : [ 566.6666259765625, 222.0, 88.0, 22.0 ],
 					"text" : "route collisions"
 				}
 
@@ -196,8 +211,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 513.6666259765625, 811.0, 150.0, 20.0 ],
-					"text" : "Draw the cube as a plane.",
+					"patching_rect" : [ 462.6666259765625, 650.0, 397.0, 20.0 ],
+					"text" : "Draw the cube as a plane. Blending is enabled with \"blend_enable 1\".",
 					"textcolor" : [ 0.996078431606293, 0.0, 0.0, 1.0 ]
 				}
 
@@ -209,7 +224,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 437.79998779296875, 230.86669921875, 150.0, 47.0 ],
+					"patching_rect" : [ 396.79998779296875, 130.86669921875, 150.0, 47.0 ],
 					"text" : "Kinematic is set to 1 so the bodies are fixed and cannot move!",
 					"textcolor" : [ 0.996078431606293, 0.0, 0.0, 1.0 ]
 				}
@@ -222,7 +237,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 158.666656494140625, 809.0, 346.0, 22.0 ],
+					"patching_rect" : [ 107.666656494140625, 648.0, 346.0, 22.0 ],
 					"text" : "jit.gl.gridshape @shape plane @blend_enable 1 @color 1 1 1 1"
 				}
 
@@ -231,11 +246,11 @@
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
-					"numinlets" : 5,
-					"numoutlets" : 5,
-					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 154.666656494140625, 138.333343505859375, 219.0, 22.0 ],
-					"text" : "routepass scale position rotatexyz color"
+					"numinlets" : 4,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 112.666656494140625, 49.333343505859375, 189.0, 22.0 ],
+					"text" : "routepass scale position rotatexyz"
 				}
 
 			}
@@ -247,7 +262,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 101.666656494140625, 105.0, 72.0, 22.0 ],
+					"patching_rect" : [ 59.666656494140625, 16.0, 72.0, 22.0 ],
 					"text" : "patcherargs"
 				}
 
@@ -259,7 +274,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 154.666656494140625, 279.86669921875, 473.0, 22.0 ],
+					"patching_rect" : [ 112.666656494140625, 190.86669921875, 473.0, 22.0 ],
 					"text" : "jit.phys.body @shape cube @scale 0.1 0.1 0.1 @kinematic 1 @collisions 1 @filters ball"
 				}
 
@@ -276,7 +291,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 635.79998779296875, 566.0, 261.0, 109.000030517578125 ],
+					"patching_rect" : [ 593.79998779296875, 449.0, 261.0, 109.000030517578125 ],
 					"proportion" : 0.5
 				}
 
@@ -293,7 +308,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 639.79998779296875, 450.0, 210.0, 68.000030517578125 ],
+					"patching_rect" : [ 597.79998779296875, 361.0, 210.0, 68.000030517578125 ],
 					"proportion" : 0.5
 				}
 
@@ -310,7 +325,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 601.79998779296875, 303.86669921875, 226.0, 94.000030517578125 ],
+					"patching_rect" : [ 559.79998779296875, 214.86669921875, 226.0, 94.000030517578125 ],
 					"proportion" : 0.5
 				}
 
