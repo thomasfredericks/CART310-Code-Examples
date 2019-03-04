@@ -68,8 +68,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 413.0, 355.0, 174.0, 22.0 ],
-					"text" : "jit.gl.gridshape @shape sphere"
+					"patching_rect" : [ 413.0, 355.0, 280.0, 22.0 ],
+					"text" : "jit.gl.gridshape @shape sphere @lighting_enable 1"
 				}
 
 			}
@@ -95,7 +95,7 @@
 					"patching_rect" : [ 413.0, 220.5, 803.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 361.0, 23.0, 155.0, 20.0 ],
-					"text" : "Physics object"
+					"text" : "Physics bodies"
 				}
 
 			}
@@ -379,8 +379,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
-					"fontsize" : [ 12.059008 ]
+					"fontsize" : [ 12.059008 ],
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
