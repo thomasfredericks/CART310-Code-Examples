@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1452.0, 939.0 ],
+		"rect" : [ 42.0, 85.0, 1452.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,66 +39,107 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-28",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 521.0, 325.5, 651.0, 33.0 ],
+					"presentation_linecount" : 2,
+					"text" : "A symbol will execute any function with the matching name. If there is no matching function, it will execute the \"anything()\" funciton. Convert the arguments to an array with \"arrayfromargs(arguments)\"."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 461.0, 287.0, 651.0, 33.0 ],
+					"presentation_linecount" : 2,
+					"text" : "A symbol will execute any function with the matching name. If there is no matching function, it will execute the \"anything()\" funciton."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 603.0, 244.0, 651.0, 33.0 ],
+					"presentation_linecount" : 2,
+					"text" : "A symbol will execute any function with the matching name. In this case, it will execute the \"mySpecialFunctionWithArguements\" function.  Convert the arguments to an array with \"arrayfromargs(arguments)\"."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 420.0, 193.0, 651.0, 20.0 ],
+					"text" : "A symbol will execute any function with the matching name. In this case, it will execute the \"mySpecialFunction\" function."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-13",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 469.5, 67.5, 167.0, 22.0 ],
-					"text" : "metro @active 1 @interval 50"
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 285.0, 160.0, 651.0, 20.0 ],
+					"presentation_linecount" : 2,
+					"text" : "A \"list\" will execute the  script's \"list()\" function. Convert the list to an array with \"arrayfromargs(arguments)\"."
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-11",
-					"maxclass" : "button",
+					"maxclass" : "comment",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 442.0, 58.5, 24.0, 24.0 ]
+					"numoutlets" : 0,
+					"patching_rect" : [ 270.0, 133.0, 415.0, 20.0 ],
+					"text" : "A \"float\" will execute the  script's \"msg_float(f)\" function."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 249.0, 108.0, 415.0, 20.0 ],
+					"text" : "An \"int\" will execute the  script's \"msg_int(i)\" function."
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"maxclass" : "newobj",
+					"maxclass" : "comment",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 469.5, 114.5, 62.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"filename" : "move.js",
-						"parameter_enable" : 0
-					}
-,
-					"text" : "js move.js"
+					"numoutlets" : 0,
+					"patching_rect" : [ 205.0, 78.0, 415.0, 20.0 ],
+					"text" : "A \"bang\" will execute the  script's \"bang()\" function."
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-5",
-					"maxclass" : "newobj",
+					"maxclass" : "comment",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 469.5, 171.0, 189.0, 22.0 ],
-					"text" : "jit.gl.gridshape @scale 0.1 0.1 0.1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "bang", "" ],
-					"patching_rect" : [ 469.5, 13.5, 175.0, 22.0 ],
-					"text" : "jit.world @enable 1 @floating 1"
+					"numoutlets" : 0,
+					"patching_rect" : [ 179.0, 45.0, 415.0, 20.0 ],
+					"text" : "A \"bang\" will execute the  script's \"bang()\" function."
 				}
 
 			}
@@ -109,7 +150,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 95.0, 86.0, 35.0, 22.0 ],
+					"patching_rect" : [ 164.0, 78.0, 35.0, 22.0 ],
 					"text" : "bang"
 				}
 
@@ -122,7 +163,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 55.0, 50.0, 24.0, 24.0 ]
+					"patching_rect" : [ 142.0, 43.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -233,7 +274,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 387.0, 309.0, 107.0, 22.0 ],
+					"patching_rect" : [ 405.0, 331.0, 107.0, 22.0 ],
 					"text" : "anythingElse a 2 3"
 				}
 
@@ -245,7 +286,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 356.0, 276.0, 77.0, 22.0 ],
+					"patching_rect" : [ 374.0, 287.0, 77.0, 22.0 ],
 					"text" : "anythingElse"
 				}
 
@@ -257,7 +298,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 171.0, 110.0, 22.0 ],
+					"patching_rect" : [ 303.0, 193.0, 110.0, 22.0 ],
 					"text" : "mySpecialFunction"
 				}
 
@@ -269,7 +310,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 231.0, 136.0, 35.0, 22.0 ],
+					"patching_rect" : [ 249.0, 158.0, 35.0, 22.0 ],
 					"text" : "1 2 3"
 				}
 
@@ -283,7 +324,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 192.0, 97.0, 50.0, 22.0 ]
+					"patching_rect" : [ 214.0, 132.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -295,7 +336,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 142.0, 48.0, 50.0, 22.0 ]
+					"patching_rect" : [ 186.0, 108.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -306,7 +347,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 312.0, 221.0, 264.0, 22.0 ],
+					"patching_rect" : [ 330.0, 243.0, 264.0, 22.0 ],
 					"text" : "mySpecialFunctionWithArguements 48 hello foo"
 				}
 
@@ -364,22 +405,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -427,15 +454,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"source" : [ "obj-7", 0 ],
-					"watchpoint_flags" : 1,
-					"watchpoint_id" : 1
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-8", 0 ]
 				}
@@ -444,13 +462,6 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "JavaScriptInMax.js",
-				"bootpath" : "D:/tof/OneDrive/CART310/CART310-Code-Examples/JavaScript in Max",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "move.js",
 				"bootpath" : "D:/tof/OneDrive/CART310/CART310-Code-Examples/JavaScript in Max",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
